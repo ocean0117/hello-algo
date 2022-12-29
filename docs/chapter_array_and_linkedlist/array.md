@@ -65,7 +65,9 @@ comments: true
 === "C"
 
     ```c title="array.c"
-    
+    /* 初始化数组 */
+    int arr[5] = {0}; // { 0, 0, 0, 0, 0 }
+    int num[] = { 1, 3, 2, 5, 4 };
     ```
 
 === "C#"
